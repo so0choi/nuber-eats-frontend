@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+
+.input {
+    @apply focus:outline-none focus:border-gray-500 p-3 border-2 text-lg border-gray-200
+}
+
+.container {
+    @apply w-full max-w-screen-lg mx-auto max-w-screen-2xl
+}
+
+.login-validation-error-text{
+    @apply text-left pl-0.5 font-medium text-red-500
+}
+
+@tailwind utilities;
